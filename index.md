@@ -14,6 +14,7 @@ Eleventy {% latestVersion versions, config %} requires Node 8 or newer. Use `nod
 
 ``` bash
 npm install -g @11ty/eleventy
+echo '<!doctype html><html><head><title>Page title</title></head><body><p>Hi</p></body></html>' > index.html
 echo '# Page header' > README.md
 eleventy
 ```
